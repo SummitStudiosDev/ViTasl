@@ -1,0 +1,9 @@
+{"filter":[
+	{"and": "IGNORE"},
+	{"or":  "IGNORE"},
+	{"the": "IGNORE"},
+	{"of": "IGNORE"},
+	{"is": "IGNORE"},
+	{"at": "IGNORE"},
+	{"a": "IGNORE"}
+]}
