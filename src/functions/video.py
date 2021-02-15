@@ -55,7 +55,8 @@ def combinevideo(num_of_clips):
 
 	with cd("clips"):
 		for i in range(1, num_of_clips+1):
-			clips.append(VideoFileClip(str(i)+".mp4"))
+			print(f"{i}.mp4")
+			clips.append(VideoFileClip(f"{i}.mp4"))
 	combined = concatenate_videoclips(clips)
 	combined.write_videofile("finalvideo.mp4")
 
